@@ -1,0 +1,22 @@
+/* hunting.css */
+h2 {
+    margin-bottom: 0.75em;
+}
+section ul {
+    line-height: 160%;
+    margin-bottom: 2em;
+    position: relative;
+    left: 20em;
+}
+
+section li {
+    list-style-type: none;
+}
+section span {
+    font-weight: bolder;
+    text-align: left;   
+    position: relative;
+}
+h2 {
+    text-align: center;
+}

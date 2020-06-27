@@ -1,0 +1,129 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <style>
+        #wrapper {
+            width: 55em;
+            margin: 0 auto;
+            padding: 0;
+        }
+        body {
+            font-weight: bold;
+            font-family: "맑은 고딕"
+        }
+        ul {
+            list-style-type: none;
+        }
+        h2 {
+            color: #111;
+            width: 5em;
+            margin: auto;
+            margin-top: 3em;
+            margin-bottom: 2em;
+            padding: 0.25em 0em;
+            background-color: #ccc;
+            text-align: center;
+            border-radius: 10%;
+        }
+        .button {
+            background-color: lightblue;
+            border: solid 2px #000000;
+            border-radius: 15%;
+        }
+        .button:hover {
+            background-color: skyblue;
+        }
+        #message_contents {
+            padding: 2em 1em 3em 1em;
+            background-color: lightgreen;
+            border-radius: 3%;
+        }
+        #message_contents button[type="submit"] {
+            padding: 10px 15px;
+            color: #fff;
+            background: #ffab00;
+            border: 0;
+            border-radius: 0.3em;
+            float: right;
+            width: 5em;
+            font-size: 1.025em;
+        }
+        #message_contents button[type="submit"]:hover {
+            background: #ff9900;
+            font-size: 1.05em;
+        }
+        #line1 {
+            border-bottom: 2px solid gray;
+            padding-bottom: 0.5em;
+        }
+        #line2 {
+            padding-top: 0.5em;
+        }
+        li {
+            padding-bottom: 0.5em;
+        }
+        #vertical span {
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <div id="message_title">
+        <h2>1:1 메시지</h2>
+    </div>
+    <div id="message_contents">
+        <form action="post" id="form_message" name="message">
+        <ul>
+            <li>이름 :
+                <input type="text" name="writer" size="10">
+            </li>
+            <li>연락처 :
+                <select>
+                    <option>010</option>
+                    <option>011</option>
+                    <option>016</option>
+                    <option>017</option>
+                    <option>018</option>
+                    <option>019</option>
+                </select>
+                - <input type="text" size="3">
+                - <input type="text" size="3">
+            </li>
+            <li id="line1">이메일 :
+                <input type="text" size="20">@
+                <select>
+                    <option value="select">선택</option>
+                    <option value="gmail">gmail.com</option>
+                    <option value="naver">naver.com</option>
+                    <option value="daum">daum.net</option>
+                    <option value="hanmail">hanmail.net</option>
+                    <option value="direct">직접입력</option>
+                </select>
+            </li>
+            <li id="line2">제목 :
+                <input type="text" name="title" size="75">
+            </li>
+            <li id="vertical"><span>내용 :</span>
+                <textarea cols="100" rows="20"></textarea>
+            </li>
+            <li>첨부파일 :
+                <input type="file">
+            </li>
+            <li>답변
+                <input type="radio" name="reply" checked> 수신
+                <input type="radio" name="reply" > 수신안함
+                <input type="radio" name="reply" > 대기중 (빠른 답변 원함)
+            </li>
+            <li>
+                <button class="button" type="submit">전송</button>
+            </li>
+        </ul>
+        </form>
+    </div>
+</div>
+</body>
+</html>

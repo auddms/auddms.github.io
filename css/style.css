@@ -1,0 +1,33 @@
+/* style.css */
+* { margin: 0; padding: 0;}
+#wrapper {
+    width: 55em;
+    margin: 0 auto;
+}
+header {
+    margin-top: 1em;
+}
+.menu {
+    text-align: center;
+}
+#nav {
+    margin: 0.25em 0 2em 0;
+    list-style-type: none;
+    background-color: rgba(255, 163, 26, 0.8);
+    font-size: 1.7em;
+    padding: 0.35em 0 0.35em 1em;
+    border-radius: 10%
+}
+#nav>li {
+    display: inline-block;
+}
+#nav>li>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding: 2.5em;
+}
+#nav>li:hover {
+    text-decoration: underline;
+    font-size: 1.01em;
+}

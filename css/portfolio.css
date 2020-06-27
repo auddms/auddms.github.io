@@ -1,0 +1,145 @@
+/* portfolio.css */
+#nav {
+    border-bottom: solid 0.2em #555;
+}
+#menu_bar {
+    background-color: rgb(7,7,54);
+    margin: 0.25em 0 2em 0;
+    padding: 0.39em 0 0.39em 1em;
+    font-size: 1.75em;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 2%;
+}
+#menu_bar ul {
+    list-style-type: none;
+}
+#menu_bar li {
+    display: inline;
+}
+#menu_bar li>a {
+    color: rgba(255, 255, 255, 0.98);
+    text-decoration: none;
+    padding: 2.5em;
+}
+#menu_bar li>a:hover{
+    text-decoration: underline;
+    font-size: 1.02em;
+}
+.login ul {
+    list-style: none;
+    text-align: right;
+    position: relative;
+    top: 0.5em;
+}
+.button {
+    position: relative;
+    top: 1em;
+    left: 62.5em;
+}
+#forget {
+    background-color: orange;
+    width: 15em;
+    position: relative;
+    top: 1.5em;
+    left: 40em;
+    border-radius: 5%;
+    text-align: center;
+}
+#forget li {
+    display: inline-block;
+    padding: 0.25em 0.7em;
+}
+#forget li>a {
+    text-decoration: none;
+    color: white;
+}
+#forget li>a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.login p {
+    text-align: right;
+    position: relative;
+    top: 2.5em;
+}
+.login p button {
+    position: relative;
+    top: 0em;
+    left: 0.5em;
+}
+h3 {
+    position: relative;
+    top: -8em;
+}
+.event li, .event_text li {
+    display: inline;
+    position: relative;
+    list-style: none;
+}
+.event_g1 li {
+    padding: 1em;
+    top: -8em;
+}
+.event_g2 li {
+    padding: 1em;
+    top: -3em;
+}
+.event_t1 li {
+    padding: 3.9em;
+    left: 1em;
+    top: -23.5em;
+}
+.event_t2 li {
+    left: 0.1em;
+    top: -3.9em;
+    padding: 5em;
+}
+footer ul li{
+    list-style-type: none;
+}
+.inline {
+    border-top: solid 0.2em #777;
+    padding-top: 1.2em;
+    margin-bottom: 1em;
+}
+.inline li{
+    display: inline;
+    padding: 0 1em 0 0;
+    font-size: 0.9em;
+}
+.inline li a {
+    text-decoration: none;
+    color: black;
+}
+.block li {
+    line-height: 1.5em;
+    font-size: 0.8em;
+}
+audio {
+    position: relative;
+    top: -55em;
+    left: 36em;
+}
+.sub_menu {
+    position: relative;
+    top: -27em;
+    left: 0em;
+    margin-top: 2em;
+    text-align: right;
+}
+.sub_menu li {
+    margin-bottom: 0.5em;
+    list-style-type: none;
+}
+.sub_menu a {
+    width: 16em;
+    text-decoration: none;
+    color: black;
+    line-height: 180%;
+    font-weight: bolder;
+    padding: 0.25em 1em 0.25em 1em;
+    background-color: rgba(255, 235, 20, 0.9);
+    font-size: 1.2em;
+    border-radius: 5%; 
+}
